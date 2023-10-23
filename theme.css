@@ -1,0 +1,35 @@
+/**
+ * This theme combines items from other public repos.  Credit will be given as available.
+*/
+
+/* CapnKitten/Material Theme - https://github.com/CapnKitten/Material-Discord */
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+
+/* Collapse members area. - https://github.com/CommandCrafterHD/DiscordDarkNeon/blob/master/src/hideUsers.scss */
+@import url('https://raw.githubusercontent.com/CommandCrafterHD/DiscordDarkNeon/master/src/hideUsers.scss');
+
+/* modern-indicators - https://github.com/discord-extensions/modern-indicators */
+@import url(https://discord-extensions.github.io/modern-indicators/src/source.css);
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+:root {
+  /* Used by hideUsers.scss */
+  --hidden-user-width: 60px;
+  --user-width: 240px;
+  --transition-time: .4s;
+
+  /*Used in CapnKitten/Material Theme*/
+  --main-color: #2b2d31;
+  --chat-color: #313338;
+  --server-color: #313338;
+  --attachment-color: #1f2225; /*Embeds*/
+  --message-color: #292d30; /*Message Bubble*/
+  --message-color-hover: #384466; /*Message Bubble*/
+
+  /*Used in modern-indicators*/
+  --indicator-selected-background: hsla(var(--indicator-selected)/0.01);
+}
