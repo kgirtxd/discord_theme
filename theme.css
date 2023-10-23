@@ -26,6 +26,7 @@ button[aria-label="Send a gift"] {
   --main-color: #2b2d31;
   --chat-color: #313338;
   --server-color: #313338;
+  --server-folder-color: #1f2225;
   --attachment-color: #1f2225; /*Embeds*/
   --message-color: #292d30; /*Message Bubble*/
   --message-color-hover: #384466; /*Message Bubble*/
