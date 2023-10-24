@@ -1,17 +1,17 @@
 /******************************************* Top and Bottom Bars *******************************************/
-/* From: https://github.com/KillYoy/DiscordNight/tree/master */
+/* From: https://github.com/KillYoy/DiscordNight/ */
 
 
 /**************************** Top Bar (Channel Name, Buttons, Search etc) ****************************/
 
-/* Titlebar/headerbar, Friends/Activty Feed & Video Call/Voice Chat */ 
+/* Titlebar/headerbar, Friends/Activty Feed & Video Call/Voice Chat */
 .container-ZMc96U,
 .privateChannels-oVe7HL {
 	z-index: 0;
 }
 .theme-dark .container-ZMc96U.themed-Hp1KC_,
 .theme-dark .titleCall-_b9o8P,
-.theme-dark .headerBar-UHpsPw, 
+.theme-dark .headerBar-UHpsPw,
 .privateChannels-oVe7HL .searchBar-3TnChZ {
 	background: var(--bg-overlay-chat,var(--background-secondary-alt));
 	padding: 0px;
@@ -44,7 +44,7 @@
 	margin: 0 8px 0px 0px;
 }
 /* Titlebar Icons: Call/Voice Channel Margin Fix */
-.headerWrapper-1ULEPv .transparent-1lUmft.container-ZMc96U .toolbar-3_r2xA .button-1fGHAH, 
+.headerWrapper-1ULEPv .transparent-1lUmft.container-ZMc96U .toolbar-3_r2xA .button-1fGHAH,
 .headerWrapper-1ULEPv .transparent-1lUmft.container-ZMc96U .toolbar-3_r2xA .button-r8Pdp4,
 .headerWrapper-1ULEPv .transparent-1lUmft.container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA,
 .headerWrapper-1ULEPv .transparent-1lUmft.container-ZMc96U .toolbar-3_r2xA .lastButton-3QdII0 {
@@ -114,7 +114,7 @@
 	z-index: 3;
 }
 .container-1-ERn5.clickable-vvKY2q,
-.container-1-ERn5.clickable-vvKY2q .header-3OsQeK:hover, 
+.container-1-ERn5.clickable-vvKY2q .header-3OsQeK:hover,
 .container-1-ERn5.selected-1GtAC5 .header-3OsQeK {
 	background: var(--bg-overlay-chat,var(--background-secondary-alt));
 }
@@ -161,9 +161,9 @@
 }
 
 /* Nitro Boosted Server */
-.iconBackgroundTierOne-14U-J-, 
+.iconBackgroundTierOne-14U-J-,
 .iconBackgroundTierTwo-1BQGc-,
-.iconBackgroundTierThree-3z-kK8, 
+.iconBackgroundTierThree-3z-kK8,
 .header-3OsQeK [class^='guildIconContainer-'] .flowerStar-2tNFCR {
 	color: #FF73FA;
 }
@@ -309,7 +309,7 @@
 	background-color: rgba(0,0,0,.35);
 }
 .container-ZMc96U .searchBar-jGtisZ:hover,
-.libraryFilter-1nwg6T .searchBar-1UNSCg:hover, 
+.libraryFilter-1nwg6T .searchBar-1UNSCg:hover,
 .browseSearch-e9jF-f .searchBar-s2JxlI:hover {
 	background-color: rgba(0,0,0,.2);
 	transition: 120ms;
@@ -321,7 +321,7 @@
 .container-ZMc96U .searchBar-jGtisZ .DraftEditor-root {
 	font-size: 15px;
 }
-.container-ZMc96U .searchBar-jGtisZ .searchFilter-2UfsDk, 
+.container-ZMc96U .searchBar-jGtisZ .searchFilter-2UfsDk,
 .container-ZMc96U .searchBar-jGtisZ .searchAnswer-23w-CH {
 	background-color: #272727;
 }
@@ -347,7 +347,7 @@
 .container-2McqkF .option-ayUoaq {
 	margin: 0 8px;
 }
-.container-2McqkF .resultsGroup-cfY57t:before, 
+.container-2McqkF .resultsGroup-cfY57t:before,
 .container-2McqkF .datePicker-70cO23 .datePickerHint-17MnA8 {
 	border-top: 1px solid #262626;
 }
@@ -382,7 +382,7 @@
 	opacity: 1;
 }
 /* Search Options: Calendar */
-.theme-dark .calendarPicker-sDhzdi .react-datepicker, 
+.theme-dark .calendarPicker-sDhzdi .react-datepicker,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
 	background-color: #1B1B1B;
 }
@@ -393,7 +393,7 @@
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
 	background-color: #111111;
 }
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day:hover, 
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day:hover,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover {
 	background-color: #101010;
 }
@@ -751,7 +751,7 @@
 	justify-content: space-between;
 	z-index: 1;
 }
-.container-1CH86i .withTagAsButton-2_JkHX, 
+.container-1CH86i .withTagAsButton-2_JkHX,
 .container-1CH86i .withTagless-Lx3LMo {
 	height: 100%;
 	flex-grow: 1;
@@ -759,7 +759,7 @@
 	background-color: transparent;
 	border-radius: 0px;
 }
-.container-1CH86i .withTagAsButton-2_JkHX .nameTag-2Q56-H, 
+.container-1CH86i .withTagAsButton-2_JkHX .nameTag-2Q56-H,
 .container-1CH86i .withTagless-Lx3LMo .nameTag-2Q56-H {
 	padding: 0px 0px 0px 4px;
 }
@@ -819,7 +819,7 @@
 .container-2NLBJg .size12-oc4dx4 {
 	font-size: 11px;
 	line-height: 11px;
-	white-space: pre-line; 
+	white-space: pre-line;
 }
 .container-2NLBJg .button-12Fmur {
 	width: 18px;
@@ -872,7 +872,7 @@
 	height: 28px;
 	min-height: 28px;
 }
-.container-2NLBJg .button-2gNyE9.buttonColor-1PCuWq, 
+.container-2NLBJg .button-2gNyE9.buttonColor-1PCuWq,
 .container-2NLBJg .button-2gNyE9.buttonColor-1PCuWq:disabled {
 	background-color: #232323;
 	padding: 0px;

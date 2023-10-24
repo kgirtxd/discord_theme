@@ -2,18 +2,21 @@
  * This theme combines items from other public repos.  Credit will be given as available.
 */
 
-/* CapnKitten/Material Theme - https://github.com/CapnKitten/Material-Discord */
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+/* CapnKitten/Material Theme Elements - https://github.com/CapnKitten/Material-Discord */
+@import url('https://raw.githubusercontent.com/kgirtxd/discord_theme/master/Material-Discord/-theme_capture.css');
+
+/* DiscordNight Theme Elements - https://github.com/KillYoy/DiscordNight */
+@import url('https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/-theme_capture.css');
 
 /* Collapse members area. - https://github.com/CommandCrafterHD/DiscordDarkNeon/blob/master/src/hideUsers.scss */
 @import url('https://raw.githubusercontent.com/CommandCrafterHD/DiscordDarkNeon/master/src/hideUsers.scss');
 
 /* modern-indicators - https://github.com/discord-extensions/modern-indicators */
-@import url(https://discord-extensions.github.io/modern-indicators/src/source.css);
+@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 
 /* Hide Nitro gift button */
 button[aria-label="Send a gift"] {
-    display: none;
+  display: none;
 }
 
 :root {
@@ -27,10 +30,13 @@ button[aria-label="Send a gift"] {
   --chat-color: #313338;
   --server-color: #313338;
   --server-folder-color: #1f2225;
-  --attachment-color: #1f2225; /*Embeds*/
-  --message-color: #292d30; /*Message Bubble*/
-  --message-color-hover: #384466; /*Message Bubble*/
+  /*Embeds*/
+  --attachment-color: #292d30;
+  /*Message Bubble*/
+  --message-color: #272727;
+  /*Message Bubble*/
+  --message-color-hover: #384466;
 
   /*Used in modern-indicators*/
-  --indicator-selected-background: hsla(var(--indicator-selected)/0.01);
+  /* --indicator-selected-background: hsla(var(--indicator-selected)/0.01); */
 }
