@@ -1,5 +1,7 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/fonts/google-sans.css");
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/Material-Discord/chat_bubbles.css");
+
 :root {
 	--app-font: "Google Sans";
 	--app-bg: var(--main-alt);
@@ -194,4 +196,3 @@
 	--text-link: hsl(var(--accent-hsl));
 }
 
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/Material-Discord/chat_bubbles.css");
