@@ -1,0 +1,16 @@
+/***************************************** Title Case Channels ****************************************/
+/* From: https://github.com/KillYoy/DiscordNight/tree/master */
+
+:root {
+	--Text-Channels-Capital-Letter: capitalize;			/* capitalize, none */
+}
+
+/* Text Channels First Letter Uppercase */
+.standardSidebarView-E9Pc3j .contentColumn-1C7as6 .title-3DKv5a,
+.root-1CAIjD .override-1sK4r0 .channelName-IPB6B3,
+.root-1CAIjD .wrapper-38NYkc .title-3DKv5a,
+.sidebar-1tnWFu .link-1_kTxV .name-28HaxV,
+.title-5wgnIa .titleWrapper-24Kyzc > h1,
+.layer-2BGhQ8 .channelHeader-DFRX8q .channelName-3APnhp {
+	text-transform: var(--Text-Channels-Capital-Letter);
+}
