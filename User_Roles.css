@@ -1,0 +1,172 @@
+/******************************************* User Roles **********************************************/
+/* From: https://github.com/KillYoy/DiscordNight/tree/master */
+
+/* User Roles */
+.role-2TIOKu {
+	position: relative;
+	overflow: hidden;
+	/* background: transparent; */
+	border: none;
+	border-color: transparent;
+	border-radius: 0px 2px 2px 0px;
+	margin: 0px 4px 3px 0px;
+	padding: 0px 2px 0px 2px;
+}
+.theme-light .role-2TIOKu {
+	background-color: var(--profile-role-pill-background-color);
+}
+.role-2TIOKu .roleCircle-3TFUOr:before {
+	content: '';
+	position: absolute;
+	background: inherit;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	opacity: 0.6;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+	margin: 0px;
+	left: unset;
+	transform: translate(0%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+	position: static;
+}
+/* Custom Role Icon */
+.role-2TIOKu .roleIcon-29epUq {
+	margin-left: -2px;
+	margin-right: 6px;
+	z-index: 1;
+}
+/* Role Remove Button */
+.role-2TIOKu .roleCircle-3TFUOr {
+	border-radius: 0px;
+	margin-left: -2px;
+	margin-right: 6px;
+	width: 3px;
+	height: 22px;
+	opacity: 0.6;
+}
+.userPopoutOuter-1OHwPL .role-2TIOKu:hover,
+.customScroller-m1-jZn .role-2TIOKu:hover {
+	padding: 0px 0px 0px 0px;
+}
+.userPopoutOuter-1OHwPL .role-2TIOKu:hover .role-2TIOKu.actionButton-1YKTU0,
+.customScroller-m1-jZn .role-2TIOKu:hover .role-2TIOKu.actionButton-1YKTU0 {
+	padding: 0px 2px 0px 2px !important;
+}
+.userPopoutOuter-1OHwPL .role-2TIOKu:hover .roleCircle-3TFUOr,
+.customScroller-m1-jZn .role-2TIOKu:hover .roleCircle-3TFUOr {
+	width: 12px;
+	height: 12px;
+	margin: 0px 3px 0px 2px;
+	border-radius: 50%;
+	opacity: 1;
+}
+.userPopoutOuter-1OHwPL .role-2TIOKu:hover .roleRemoveIcon-387wKV,
+.customScroller-m1-jZn .role-2TIOKu:hover .roleRemoveIcon-387wKV {
+	width: 12px;
+	height: 12px;
+	margin-left: 2px;
+}
+/* Role Add Button */
+.role-2TIOKu.actionButton-1YKTU0:before {
+	content: '';
+	position: absolute;
+	border-width: 12px;
+	border-style: solid;
+	border-color: inherit;
+}
+.theme-light .role-2TIOKu.actionButton-1YKTU0:before {
+	border-color: transparent;
+}
+.role-2TIOKu.actionButton-1YKTU0 {
+	border-color: #333333;
+}
+.role-2TIOKu.actionButton-1YKTU0:hover {
+	border-color: #444444;
+}
+.role-2TIOKu.actionButton-1YKTU0 .addButtonIcon-3HZ_2f {
+	filter: drop-shadow(-1px 1px 0px #191919);
+	width: 16px;
+}
+/* Role Add Button: Hover */
+.userPopoutOuter-1OHwPL .roles-3zC7MX .role-2TIOKu.actionButton-1YKTU0 {
+	border-radius: 2px;
+	display: none;
+}
+.userPopoutOuter-1OHwPL .roles-3zC7MX:hover .role-2TIOKu.actionButton-1YKTU0 {
+	display: flex;
+}
+/* Text */
+.role-2TIOKu .roleName-2ZJJYR {
+	margin: 0px 2px 0px -2px;
+	overflow: visible;
+	z-index: 1;
+}
+.userPopoutOuter-1OHwPL.theme-light .roleName-2ZJJYR .defaultColor-24IHKz {
+	color: #000000;
+	text-shadow: -1px 1px 2px rgba(0,0,0,0.2);
+}
+.userPopoutOuter-1OHwPL.theme-dark .roleName-2ZJJYR,
+.customScroller-m1-jZn .role-2TIOKu .roleName-2ZJJYR {
+	color: #FFFFFF;
+	text-shadow: -1px 1px 2px rgba(0,0,0,0.6);
+}
+
+/* Server Management Popout (User Roles, Audit log Filter) */
+.container-2kTWmC {
+	background-color: #191919;
+	box-shadow: var(--elevation-stroke),var(--elevation-high);
+	border: none;
+	padding-bottom: 0px;
+}
+.container-2kTWmC .inner-2pOSmK {
+	background-color: #141414;
+}
+.container-2kTWmC .list-1B0XtU {
+	padding: 0px 0px 4px 0px;
+}
+.container-2kTWmC .list-1B0XtU .item-1Mjtru:hover {
+	background-color: #161616;
+}
+.container-2kTWmC .list-1B0XtU .selected-22ukbQ {
+	background-color: #141414;
+}
+.container-2kTWmC .list-1B0XtU .selectedBrand-1AtwYE,
+.container-2kTWmC .list-1B0XtU .selectedBrand-1AtwYE:hover {
+	background:var(--bd-blue);
+}
+.container-2kTWmC .list-1B0XtU .popoutRoleDot-2_Nt5g {
+	border: none;
+}
+
+/* View User Permissions Plugin: User Popout */
+.userPopoutOuter-1OHwPL #permissions-popout {
+	width: calc(var(--User-Popout-Width) - 14px);
+	margin-bottom: 12px;
+}
+.userPopoutOuter-1OHwPL #permissions-popout .endBodySection-ypd-38 {
+	width: calc(var(--User-Popout-Width) - 8px);
+}
+.userPopoutOuter-1OHwPL #permissions-popout .member-perms-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	margin-bottom: 4px;
+	z-index: 3;
+}
+.userPopoutOuter-1OHwPL #permissions-popout .member-perms {
+	max-height: 168px;
+}
+.userPopoutOuter-1OHwPL #permissions-popout .member-perms .member-perm {
+	height: 18px;
+}
+.userPopoutOuter-1OHwPL #permissions-popout .member-perms .member-perm .perm-circle {
+	border-radius: 0px;
+	margin-left: -2px;
+	margin-right: 6px;
+	width: 3px;
+	height: 100%;
+}
