@@ -1,0 +1,30 @@
+/* Working patch to DiscordNight Theme */
+:root {
+    --hidden-user-width: 60px;
+    --user-width: 240px;
+    --transition-time: .4s;
+}
+
+/* Slides Member Area */
+.container_b2ce9c {
+    transition-duration: var(--transition-time);
+    justify-content: unset;
+    min-width: unset;
+    width: var(--hidden-user-width);
+}
+
+.container_b2ce9c:hover {
+    width: var(--user-width);
+}
+
+/* Hides Roles */
+.container_de798d {
+    height: 0px;
+    transition-duration: var(--transition-time);
+    padding-top: 0px;
+}
+
+.container_b2ce9c:hover .container_de798d {
+    height: 40px;
+    padding-top: 24px;
+}
