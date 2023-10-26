@@ -18,13 +18,14 @@
 }
 
 /* Hides Roles */
-.container_de798d {
+.membersGroup__85843.container_de798d
+{
     height: 0px;
     transition-duration: var(--transition-time);
     padding-top: 0px;
 }
 
-.container_b2ce9c:hover .container_de798d {
+.container_b2ce9c:hover .membersGroup__85843.container_de798d  {
     height: 40px;
     padding-top: 24px;
 }
