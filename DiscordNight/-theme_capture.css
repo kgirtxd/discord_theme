@@ -1,5 +1,21 @@
+:root {
+	--Chatbox-Gift-Button: none;						/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: flex;							/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: none;					/* flex = ON, none = OFF */
+
+	--Chat-Emoji-Size: 1.75rem;							/* 1.75rem, Discord default = 1.375rem */
+	--Chat-Emoji-Large-Size: 2rem;						/* 2rem, Discord default = 3rem */
+	--Chat-Sticker-Size: 10rem;							/* 5rem, Discord default = 10rem */
+	--Chat-Super-Reaction-Button: none;					/* flex = ON, none = OFF */
+
+	--Emoji-Menu-Height: 612px;							/* 612px or 492px, Discord default = 444px */
+	--Search-List-Width: 488px;							/* 488px, Discord default = 418px */
+	--Inbox-List-Width: 522px;							/* 522px, Discord default = 480px */
+}
+
+
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Border_Bars.css");
-/* @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Chat_Area.css"); */
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Chat_Area.css");
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile_Connection_Icons.css");
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile.css");
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Settings_Icons.css");

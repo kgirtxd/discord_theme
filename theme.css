@@ -3,7 +3,7 @@
 */
 
 /* CapnKitten/Material Theme Elements - https://github.com/CapnKitten/Material-Discord */
-@import url('https://raw.githubusercontent.com/kgirtxd/discord_theme/master/Material-Discord/-theme_capture.css');
+/* @import url('https://raw.githubusercontent.com/kgirtxd/discord_theme/master/Material-Discord/-theme_capture.css'); */
 
 /* DiscordNight Theme Elements - https://github.com/KillYoy/DiscordNight */
 @import url('https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/-theme_capture.css');
@@ -16,7 +16,7 @@
 @import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 
 /* Hide Nitro gift button */
-button[aria-label="Send a gift"] {
+button[aria-label*="Send a gift"] {
   display: none;
 }
 
