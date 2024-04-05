@@ -7,14 +7,14 @@
 }
 
 /* Slides Member Area */
-.container_f79ab4 {
+.container_f79ab4, .membersWrap__5ca6b {
     transition-duration: var(--transition-time);
     justify-content: unset;
     min-width: unset;
     width: var(--hidden-user-width);
 }
 
-.container_f79ab4:hover {
+.container_f79ab4:hover, .membersWrap__5ca6b:hover {
     width: var(--user-width);
 }
 
@@ -26,7 +26,7 @@
     padding-top: 0px;
 }
 
-.container_f79ab4:hover .membersGroup_cad095.container__43554  {
+.container_f79ab4:hover .membersGroup_cad095.container__43554 {
     height: 40px;
     padding-top: 24px;
 }
