@@ -1,3 +1,11 @@
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Border_Bars.css");
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Chat_Area.css");
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile_Connection_Icons.css");
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile.css");
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Settings_Icons.css");
+/* @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Title_Case_Channels.css"); */
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/User_Roles.css");
+
 :root {
 	--Chatbox-Gift-Button: none;						/* flex = ON, none = OFF */
 	--Chatbox-GIF-Button: flex;							/* flex = ON, none = OFF */
@@ -12,12 +20,3 @@
 	--Search-List-Width: 488px;							/* 488px, Discord default = 418px */
 	--Inbox-List-Width: 522px;							/* 522px, Discord default = 480px */
 }
-
-
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Border_Bars.css");
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Chat_Area.css");
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile_Connection_Icons.css");
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile.css");
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Settings_Icons.css");
-/* @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Title_Case_Channels.css"); */
-@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/User_Roles.css");
