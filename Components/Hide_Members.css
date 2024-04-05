@@ -1,4 +1,5 @@
-/* Working patch to DiscordNight Theme */
+/* Edits the Users section */
+
 :root {
     --hidden-user-width: 60px;
     --user-width: 240px;
@@ -6,26 +7,26 @@
 }
 
 /* Slides Member Area */
-.container_b2ce9c {
+.container_f79ab4 {
     transition-duration: var(--transition-time);
     justify-content: unset;
     min-width: unset;
     width: var(--hidden-user-width);
 }
 
-.container_b2ce9c:hover {
+.container_f79ab4:hover {
     width: var(--user-width);
 }
 
 /* Hides Roles */
-.membersGroup__85843.container_de798d
+.membersGroup_cad095.container__43554
 {
     height: 0px;
     transition-duration: var(--transition-time);
     padding-top: 0px;
 }
 
-.container_b2ce9c:hover .membersGroup__85843.container_de798d  {
+.container_f79ab4:hover .membersGroup_cad095.container__43554  {
     height: 40px;
     padding-top: 24px;
 }
