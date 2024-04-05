@@ -6,11 +6,11 @@
 }
 
 /* Text Channels First Letter Uppercase */
-.standardSidebarView-E9Pc3j .contentColumn-1C7as6 .title-3DKv5a,
-.root-1CAIjD .override-1sK4r0 .channelName-IPB6B3,
-.root-1CAIjD .wrapper-38NYkc .title-3DKv5a,
-.sidebar-1tnWFu .link-1_kTxV .name-28HaxV,
-.title-5wgnIa .titleWrapper-24Kyzc > h1,
-.layer-2BGhQ8 .channelHeader-DFRX8q .channelName-3APnhp {
+.standardSidebarView__12528 .contentColumn__5f80b .title__387dc::first-letter,
+.root_a28985 .wrapper_d16569 .title__387dc::first-letter,
+.sidebar_e031be .link_ddbb36 .name__4eb92::first-letter,
+.searchResultsWrap__2e184 .channelNameText__56ed8::first-letter,
+.title_d4ba1a .titleWrapper_d6133e > h1,
+.layer__6b5c3 .channelHeader_ea0f89 .channelName_bac162 {
 	text-transform: var(--Text-Channels-Capital-Letter);
 }
