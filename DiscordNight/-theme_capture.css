@@ -3,22 +3,35 @@
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile_Connection_Icons.css");
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Profile.css");
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Settings_Icons.css");
-/* @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Title_Case_Channels.css"); */
+@import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/Channel_Area.css");
 @import url("https://raw.githubusercontent.com/kgirtxd/discord_theme/master/DiscordNight/User_Roles.css");
 
 :root {
-	--Chatbox-Gift-Button: none;						/* flex = ON, none = OFF */
-	--Chatbox-GIF-Button: flex;							/* flex = ON, none = OFF */
-	--Chatbox-Stickers-Button: none;					/* flex = ON, none = OFF */
+	--Chatbox-Gift-Button: none;							/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: flex;								/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: none;						/* flex = ON, none = OFF */
 
-	--Chat-Emoji-Size: 1.75rem;							/* 1.75rem, Discord default = 1.375rem */
-	--Chat-Emoji-Large-Size: 2rem;						/* 2rem, Discord default = 3rem */
-	--Chat-Sticker-Size: 10rem;							/* 5rem, Discord default = 10rem */
-	--Chat-Super-Reaction-Button: none;					/* flex = ON, none = OFF */
+	--Chat-Emoji-Size: 1.75rem;								/* 1.75rem, Discord default = 1.375rem */
+	--Chat-Emoji-Large-Size: 2rem;							/* 2rem, Discord default = 3rem */
+	--Chat-Sticker-Size: 10rem;								/* 5rem, Discord default = 10rem */
+	--Chat-Super-Reaction-Button: none;						/* flex = ON, none = OFF */
 
-	--Emoji-Menu-Height: 612px;							/* 612px or 492px, Discord default = 444px */
-	--Search-List-Width: 488px;							/* 488px, Discord default = 418px */
-	--Inbox-List-Width: 522px;							/* 522px, Discord default = 480px */
+	--Emoji-Menu-Height: 612px;								/* 612px or 492px, Discord default = 444px */
+	--Search-List-Width: 488px;								/* 488px, Discord default = 418px */
+	--Inbox-List-Width: 522px;								/* 522px, Discord default = 480px */
 
 	--text-muted: #777777;
+	--Titlebar-Help-Icon: none;								/* flex = ON, none = OFF */
+
+	--Channel-Invite-Edit-Buttons: none;					/* flex = ON, none = OFF */
+	--Channel-Category-Invite-Button: flex;					/* flex = ON, none = OFF */
+	--Channel-List-Active-Threads: flex;					/* flex = ON, none = OFF */
+	--Channel-List-Upcoming-Events: flex;					/* flex = ON, none = OFF */
+	--Channel-List-Boost-Goal: block;				      	/* block = ON, none = OFF */
+	--Channel-List-Width: 200px;						    /* 200px, Discord default = 240px */
+	--Text-Channels-Capital-Letter: none;			        /* capitalize, none */
+
+	--User-List-Width: 200px;							    /* 200px, Discord default = 240px */
+	--User-Popout-Width: 240px;							    /* 240px, Discord default = 300px */
+	--User-Status-Popout-Width: var(--Channel-List-Width);  /* 240px, Discord default = 300px */
 }
