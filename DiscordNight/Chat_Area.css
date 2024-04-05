@@ -691,3 +691,71 @@
 	width: 20px;
 	height: 20px;
 }
+
+/* Vencord Plugin: TypingIndicator Channel */
+.sidebar_e031be .wrapper__612a5 .dots_a97068 {
+	margin-right: 0px;
+}
+.sidebar_e031be [class^='scroller']:hover .wrapper__612a5 .dots_a97068 {
+	margin-right: -4px;
+}
+/* Chat Box Area (Padded Container Including The Input Box & Typing Indicator) */
+.channelTextArea_c2094b {
+	background: var(--bg-overlay-1, var(--background-secondary-alt));
+	border-radius: 0px;
+	margin: 0px;
+}
+.channelTextArea_c2094b .scrollableContainer_ff917f,
+.channelTextArea__626ee .scrollableContainer_ff917f {
+	background: var(--bg-overlay-1, var(--background-secondary-alt));
+	border-radius: 0px;
+	padding: 2px 2px 2px 4px;
+}
+.channelTextArea_c2094b .wrapper_a62503 .scrollableContainer_ff917f {
+	border-radius: 4px;
+	max-width: 94%;
+}
+.chat__52833 form {
+	padding: 0px;
+}
+
+/* User Is Typing Indicator */
+.typing__6fd1d {
+	margin: 0px 0px -1px -21px;
+	height: 16px;
+	width: 90%;
+	font-size: 11px;
+	pointer-events: none;
+}
+.typing__6fd1d strong {
+	font-weight: 500;
+	pointer-events: auto;
+}
+.typing__6fd1d .dots_a97068 {
+	color: #777777;
+}
+/* User Is Typing Indicator: Plugin Avatars */
+.typing__6fd1d .wrapper__3ed10 {
+	width: 14px !important;
+	height: 14px !important;
+}
+/* Slowmode Is Enabled */
+.typing__6fd1d .cooldownWrapper__193b2 {
+	color: var(--text-muted) !important;
+	margin-left: 6px;
+	font-size: 10px;
+	height: 9px;
+	pointer-events: auto;
+}
+.typing__6fd1d .cooldownWrapper__193b2 .slowModeIcon__2967f {
+	margin-left: 2px;
+	width: 12px;
+}
+
+/* 2 Typing Indicator Dots */
+:where(.sidebar_e031be, .container_f79ab4, .cozy_f5c119, .layout_bb8e67) .wrapper__3ed10 .dots_a97068 :nth-child(3) {
+	fill: transparent;
+}
+.wrapper__3ed10 .mask_d5067d rect[width="25"] {
+	width: 19px;
+}

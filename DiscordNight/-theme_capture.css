@@ -19,4 +19,6 @@
 	--Emoji-Menu-Height: 612px;							/* 612px or 492px, Discord default = 444px */
 	--Search-List-Width: 488px;							/* 488px, Discord default = 418px */
 	--Inbox-List-Width: 522px;							/* 522px, Discord default = 480px */
+
+	--text-muted: #777777;
 }
