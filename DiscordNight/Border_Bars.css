@@ -892,9 +892,9 @@
 	background-color: var(--bd-blue);
 }
 /* Activites Button */
-.container_e1958d .actionButtons__85e3c .button_b82d53:nth-child(3) {
+/* .container_e1958d .actionButtons__85e3c .button_b82d53:nth-child(3) {
 	display: var(--Start-Activities-Button);
-}
+} */
 .container_e1958d .actionButtons__85e3c .button_b82d53:nth-child(3) .maskSecondary_d8f93c {
 	display: none;
 }
