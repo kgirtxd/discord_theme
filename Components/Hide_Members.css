@@ -19,14 +19,14 @@
 }
 
 /* Hides Roles */
-.membersGroup_cbd271.container_cc72c1
+.membersGroup_cbd271.container_a5ad5c
 {
     height: 0px;
     transition-duration: var(--transition-time);
     padding-top: 0px;
 }
 
-.container_cbd271:hover .membersGroup_cbd271.container_cc72c1 {
+.container_cbd271:hover .membersGroup_cbd271.container_a5ad5c {
     height: 40px;
     padding-top: 24px;
 }
