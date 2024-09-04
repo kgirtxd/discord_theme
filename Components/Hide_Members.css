@@ -19,6 +19,7 @@
 }
 
 /* Hides Roles */
+.vc-membercount-widget.vc-membercount-member-list,
 .membersGroup_cbd271.container_a5ad5c
 {
     height: 0px;
