@@ -25,9 +25,13 @@
     height: 0px;
     transition-duration: var(--transition-time);
     padding-top: 0px;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .container_cbd271:hover .membersGroup_cbd271.container_a5ad5c {
     height: 40px;
     padding-top: 24px;
+    opacity: 1;
+    visibility: visible;
 }
